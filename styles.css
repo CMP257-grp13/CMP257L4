@@ -1,0 +1,100 @@
+
+body {
+    background-color: #FEF9D9;
+    font-family: serif;
+   }
+
+h1{
+    font-family: fantasy;
+   background-color: #CCD5AE;
+   font-size: xx-large;
+   text-align: center;
+}
+
+
+h2{
+    font-family: 'Courier New';
+    background-color: #CCD5AE;
+    font-size:x-large;
+    text-align: center;
+   }
+   footer{
+    background-color: #FF8A8A;
+   }
+   form{
+    background-color: #EECAD5;
+    padding: 1%
+   }
+   input{
+    border-style: solid;
+    padding: 1%;
+    margin-bottom: 3%;
+   }
+   textarea{
+    border-style: solid;
+    margin-bottom: 3%;
+    margin-right: 3%;
+    padding: 1%;
+   }
+   label{
+    font-size:medium
+   }
+   
+   #elm:hover{
+    color: red;
+   }
+#reset_btn{
+        display:inline-block;
+        padding:0.5em 1.4em;
+        margin:0 0.1em 0.1em 0;
+        border:0.16em solid rgba(255,255,255,0);
+        border-radius:2em;
+        box-sizing: border-box;
+        text-decoration:none;
+        font-family:'Roboto',sans-serif;
+        font-weight:300;
+        color: pink;
+        text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+        text-align:center;
+        transition: all 0.2s;
+        }
+#reset_btn:hover{
+        border-top-color: rgba(255,255,255,1);
+        }
+@media all and (max-width:30em){
+         #reset_btn{
+        display:block;
+        margin:0.2em auto; } }
+
+ #submit_btn{
+    display:inline-block;
+    padding:0.4em 0.9em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.15em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    text-transform:uppercase;
+    font-weight:400;
+    color:#FFFFFF;
+    background-color:#3369ff;
+    box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+    text-align:center;
+    position:relative;
+ }
+
+.container-fluid{
+        font-size: small;
+        font-family:'Times New Roman', Times, serif;
+}
+
+.card{
+        margin-top: 1%;
+        background-color: aliceblue;
+        margin-left: 1%;
+        margin-right: 1%;
+        padding: 1%;
+}
+
+
+

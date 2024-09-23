@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+<html>
+ <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" type="text/css" media="all">
+ </head>
+<body>
+ <h2>Event Form</h2>
+ <form action="dummy.html" method="post">
+   <div class="row modify">
+      <div class="col-lg-2 col-md-3 col-sm-6">
+          <label for="Event_name">Event name: </label> <input class="form-control" type="text" id="Event_name" name="Event_name" required>
+      </div>
+      
+      <div class="col-lg-2 col-md-3 col-sm-6">
+          <label for="my_date">Date: <input class="form-control" type="date" id="my_date" name="my_date" required>
+      </div>
+      
+      <div class="col-lg-2 col-md-3 col-sm-6">
+          <label for="my_time">Time: <input class="form-control" type="time" id="my_time" name="my_time">
+      </div>
+      
+      <div class="col-lg-2 col-md-3 col-sm-6">
+          <label for="my_location">Location: <input class="form-control" type="text" id="my_location" name="my_location">
+      </div>
+  
+      <div class="col-lg-2 col-md-3 col-sm-6">
+          <label for="my_description">Description: 
+              <textarea id="my_description" class="form-control" name="my_description" rows="4" cols="50"></textarea>
+          </div>
+      
+      <div class="col-lg-2 col-md-3 col-sm-6">
+      </div>
+  
+      <div class="col-lg-2 col-md-3 col-sm-6">
+          <p>Is this event available to all students?</p>
+          <input type="radio" id="yes" name="availability" value="Yes">
+          <label for="yes">Yes</label><br>
+          <input type="radio" id="no" name="availability" value="No">
+          <label for="no">No</label><br>
+     
+  </div>
+  
+      <div class="col-lg-2 col-md-3 col-sm-6">
+          <p>What type of event is this?</p>
+          <input type="checkbox" id="Workshop" name="Workshop"> <label for="Workshop">Workshop</label><br>
+          <input type="checkbox" id="Social" name="Social"> <label for="Social">Social</label><br>
+          <input type="checkbox" id="Sports" name="Sports"> <label for="Sports">Sports</label><br>
+          <input type="checkbox" id="Academic" name="Academic"> <label for="Academic">Academic</label><br>
+          <input type="checkbox" id="Other" name="Other"> <label for="Other">Other</label><br>
+      </div>
+  
+          <br>
+      <div class="col-lg-2 col-md-3 col-sm-6">
+          <label for="dept_name">Select the department hosting the event:</label>
+          <select class="form-control" name="dept_name" id="dept_name">     
+              <option value="CEN">CEN</option>
+              <option value="SBA">SBA</option>
+              <option value="CAS">CAS</option>
+              <option value="CAAD">CAAD</option>
+              <option value="OSA">OSA</option>
+              <option value="Other">Other</option>
+          </select>
+      </div>
+          <br>
+  
+          <br>
+          <div class="col-lg-2 col-md-3 col-sm-6">
+            <button type="button" class="btn btn-outline-danger">Reset</button>
+         </div>
+         <div class="col-lg-2 col-md-3 col-sm-6">
+            <button type="button" class="btn btn-outline-primary">Submit</button>
+         </div>
+      </div>
+  
+</form>
+<h4>Get in touch with the organizer</h4> 
+<p><strong>Email: </strong> Event&Co@gmail.com</p> 
+<p><strong>Phone number: </strong> 971 509 871 563</p>
+<a href="home.html">Home</a>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+   
